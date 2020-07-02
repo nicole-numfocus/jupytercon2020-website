@@ -39,7 +39,7 @@
                 <div class="grid-y">
                     <div class="cell sponsor-row" v-for="sponsor in sponsors">
                         <div class="grid-x sponsor-row-container">
-                            <div class="cell small-4"><img class="sponsor-image" :src="sponsor.image"></div>
+                            <div class="cell small-4"><img class="sponsor-image""></div>
                             <div class="cell auto sponsor-text-plain">
                                 <p>
                                     <a :href="sponsor.link">{{ sponsor.link }}</a>
